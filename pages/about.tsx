@@ -31,12 +31,6 @@ export default function About() {
         tech-savvy audience.
       </Typography>
       <Typography sx={{ mb: "1rem" }}>
-        I currently work as a Developer Advocate at MUI. Previously, I served as
-        Marketing Manager at Hashnode. My specialty as a software engineer is
-        web development with JavaScript, TypeScript, and React. I'm always happy
-        to consider new clients for writing work.
-      </Typography>
-      <Typography sx={{ mb: "1rem" }}>
         In my free time I enjoy reading, writing, making music, gardening,
         traveling, and exploring the great outdoors.
       </Typography>
