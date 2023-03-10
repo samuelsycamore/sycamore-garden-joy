@@ -11,7 +11,7 @@ export default function Index() {
         Welcome to Sycamore Garden! This is where I've gathered together all of
         my little projects on the internet. Some things you could do here:
       </Typography>
-      <List>
+      <List sx={{ display: "inline" }}>
         <ListItem>
           check out my&nbsp;
           <a href="https://work.sycamore.garden">professional portfolio</a>
@@ -24,12 +24,6 @@ export default function Index() {
           read my&nbsp;<Link href="/blog">short fiction and memoirs</Link>
         </ListItem>
         <ListItem>
-          browse the&nbsp;
-          <a href="https://foraging.sycamore.garden">
-            edible wild plant database
-          </a>
-        </ListItem>
-        <ListItem>
           read my&nbsp;
           <a href="https://shop.sycamore.garden">
             book on foraging for beginners
@@ -39,6 +33,12 @@ export default function Index() {
           buy my&nbsp;
           <a href="https://thegoodliferevival.com/shop/fna">
             course on the botany of edible wild plants
+          </a>
+        </ListItem>
+        <ListItem>
+          browse the&nbsp;
+          <a href="https://foraging.sycamore.garden">
+            edible wild plant database
           </a>
         </ListItem>
         <ListItem>
@@ -60,7 +60,7 @@ export default function Index() {
         <ListItem>
           listen to my&nbsp;
           <a href="https://thegoodliferevival.com/podcast">
-            old podcast on foraging, homesteading, sustainability
+            old podcast on homesteading and ecology
           </a>
         </ListItem>
       </List>

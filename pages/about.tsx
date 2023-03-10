@@ -17,14 +17,28 @@ export default function About() {
         alt="this person does not exist"
         src={siteMetaData.image}
       >
-        JN
+        SS
       </Avatar>
-      <Typography>
-        I'm baby waistcoat ugh before they sold out pok pok mlkshk, iceland
-        chicharrones. Art party craft beer semiotics Brooklyn, bitters aesthetic
-        cornhole authentic vape YOLO food truck waistcoat cliche. Same pork
-        belly cornhole wayfarers, hexagon DSA raclette praxis farm-to-table
-        edison bulb woke you probably haven't heard of them.
+      <Typography sx={{ mb: "1rem" }}>
+        I'm Sam Sycamore, a writer and editor with over ten years of
+        professional experience across multiple industries.
+      </Typography>
+      <Typography sx={{ mb: "1rem" }}>
+        I help tech startups and digital agencies clearly communicate the value
+        of their products and services to their target users. I especially enjoy
+        writing educational content for tech products, because I believe that
+        strong docs are the best marketing materials you can present to a
+        tech-savvy audience.
+      </Typography>
+      <Typography sx={{ mb: "1rem" }}>
+        I currently work as a Developer Advocate at MUI. Previously, I served as
+        Marketing Manager at Hashnode. My specialty as a software engineer is
+        web development with JavaScript, TypeScript, and React. I'm always happy
+        to consider new clients for writing work.
+      </Typography>
+      <Typography sx={{ mb: "1rem" }}>
+        In my free time I enjoy reading, writing, making music, gardening,
+        traveling, and exploring the great outdoors.
       </Typography>
     </Layout>
   );
