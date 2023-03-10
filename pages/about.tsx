@@ -24,11 +24,10 @@ export default function About() {
         professional experience across multiple industries.
       </Typography>
       <Typography sx={{ mb: "1rem" }}>
-        I help tech startups and digital agencies clearly communicate the value
-        of their products and services to their target users. I especially enjoy
-        writing educational content for tech products, because I believe that
-        strong docs are the best marketing materials you can present to a
-        tech-savvy audience.
+        I currently work as a Developer Advocate at MUI. Previously, I served as
+        Marketing Manager at Hashnode. My specialty as a software engineer is
+        web development with JavaScript, TypeScript, and React. I'm always happy
+        to consider new clients for writing work.
       </Typography>
       <Typography sx={{ mb: "1rem" }}>
         In my free time I enjoy reading, writing, making music, gardening,
