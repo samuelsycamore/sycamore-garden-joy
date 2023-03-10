@@ -1,9 +1,9 @@
 export const siteMetaData = {
-  title: "Joy UI Next.js Blog",
+  title: "Sycamore Garden",
   author: "Sam Sycamore",
-  description: "Minimalist Joy UI blog built with Next.js in TypeScript.",
+  description: "The digital garden of Sam Sycamore.",
   language: "en-us",
-  siteUrl: "https://joy-next-blog.vercel.app",
+  siteUrl: "https://sycamore.garden",
   image: "/images/photo.jpeg",
   ogImage: "/images/og-card.jpg",
   twImage: "/images/og-card.jpg",

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Layout from "../components/Layout";
 import List from "@mui/joy/List";
 import ListItem from "@mui/joy/ListItem";
@@ -6,27 +7,63 @@ import Typography from "@mui/joy/Typography";
 export default function Index() {
   return (
     <Layout>
-      <Typography level="h2" sx={{ mb: "1rem" }}>
-        Minimalist Joy UI Blog
-      </Typography>
-      <Typography sx={{ mb: "1rem" }}>
-        Welcome to your sleek new Joy UI blog. ✨
-      </Typography>
-      <Typography component="h2" level="h3">
-        Features
+      <Typography>
+        Welcome to Sycamore Garden! This is where I've gathered together all of
+        my little projects on the internet. Some things you could do here:
       </Typography>
       <List>
-        <ListItem>✓ Built with TypeScript</ListItem>
-        <ListItem>✓ Designed with Joy UI's default styles</ListItem>
-        <ListItem>✓ Ready to publish with Next.js Markdown blog</ListItem>
-        <ListItem>✓ Light and dark modes with toggle button</ListItem>
-        <ListItem>✓ Includes Prettier for code formatting</ListItem>
+        <ListItem>
+          check out my&nbsp;
+          <a href="https://work.sycamore.garden">professional portfolio</a>
+        </ListItem>
+        <ListItem>
+          read my&nbsp;
+          <a href="https://tech.sycamore.garden)">tech and career blog</a>
+        </ListItem>
+        <ListItem>
+          read my&nbsp;<Link href="/blog">short fiction and memoirs</Link>
+        </ListItem>
+        <ListItem>
+          browse the&nbsp;
+          <a href="https://foraging.sycamore.garden">
+            edible wild plant database
+          </a>
+        </ListItem>
+        <ListItem>
+          read my&nbsp;
+          <a href="https://shop.sycamore.garden">
+            book on foraging for beginners
+          </a>
+        </ListItem>
+        <ListItem>
+          buy my&nbsp;
+          <a href="https://thegoodliferevival.com/shop/fna">
+            course on the botany of edible wild plants
+          </a>
+        </ListItem>
+        <ListItem>
+          listen to my demos on&nbsp;
+          <a href="https://soundcloud.com/samsycamore">SoundCloud</a>
+        </ListItem>
+        <ListItem>
+          listen to my albums on&nbsp;
+          <a href="https://tidal.com/browse/artist/31976823">Tidal</a>
+          &nbsp;/&nbsp;
+          <a href="https://music.apple.com/us/artist/sam-sycamore/1622286944">
+            Apple Music
+          </a>
+          &nbsp;/&nbsp;
+          <a href="https://open.spotify.com/artist/1AuQfJvltKqsx3vtHoZUkq">
+            Spotify
+          </a>
+        </ListItem>
+        <ListItem>
+          listen to my&nbsp;
+          <a href="https://thegoodliferevival.com/podcast">
+            old podcast on foraging, homesteading, sustainability
+          </a>
+        </ListItem>
       </List>
-      <Typography>
-        View it on{" "}
-        <a href="https://github.com/samuelsycamore/joy-next-blog/">GitHub</a>.
-        Created with 💙 by <a href="https://mui.com/">MUI</a>.
-      </Typography>
     </Layout>
   );
 }
