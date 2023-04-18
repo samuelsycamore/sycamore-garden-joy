@@ -12,22 +12,22 @@ import Typography from "@mui/joy/Typography";
 const contactList = [
   {
     name: "Email",
-    url: "mailto:name@email.com",
+    url: "sam@sycamore.garden",
     icon: <EmailIcon />,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com/",
+    url: "https://linkedin.com/in/samuelsycamore",
     icon: <LinkedInIcon />,
   },
   {
     name: "Twitter",
-    url: "https://twitter.com/",
+    url: "https://twitter.com/tanoaksam",
     icon: <TwitterIcon />,
   },
   {
     name: "GitHub",
-    url: "https://github.com/",
+    url: "https://github.com/samuelsycamore",
     icon: <GitHubIcon />,
   },
 ];
